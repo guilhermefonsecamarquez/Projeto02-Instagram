@@ -1,0 +1,324 @@
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+ion-icon {
+  font-size: 22px;
+  color: black;
+}
+
+img {
+  width: 56px;
+}
+
+p {
+  font-size: 12px;
+  color: #262626;
+}
+
+h2 {
+  font-size: 14px;
+  color: #262626;
+}
+
+.container-menu {
+  width: 100%;
+  height: 54px;
+  background-color: white;
+  border-bottom: 1px solid #DBDBDB;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.menu {
+  width: 935px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-celular {
+  display: none;
+}
+
+.logo {
+  width: 16%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.separador {
+  width: 1px;
+  height: 22px;
+  background-color: #DBDBDB;
+}
+
+.logo img {
+  width: 103px;
+  height: 29px;
+}
+
+.pesquisa {
+  width: 215px;
+  height: 28px;
+}
+
+.pesquisa input {
+  width: 100%;
+  height: 90%;
+  text-align: center;
+  color: #979797;
+  background-color: #FAFAFA;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+}
+
+.submenu {
+  width: 17%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-principal {
+  width: 935px;
+  margin: auto;
+  margin-top: 88px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-right: 14px;
+  width: 614px;
+}
+
+.caixa-storie {
+  background-color: white;
+  width: 100%;
+  height: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #DBDBDB;
+  overflow: hidden;
+}
+
+.caixa-storie ion-icon {
+  font-size: 30px;
+  color: white;
+  filter: drop-shadow(0px 4px 4px gray);
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  bottom: 50px;
+}
+
+.stories {
+  background-image: url("assets/stories_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 66px;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 88px;
+  margin-left: 11px;
+}
+
+.caixa-storie div img {
+  border-radius: 100%;
+  margin-bottom: 8px;
+}
+
+.posts {
+  margin-top: 24px;
+  width: 614px;
+}
+
+.post {
+  margin-bottom: 60px;
+  border: 1px solid #DBDBDB;
+}
+
+.logo-post {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-post div {
+  margin-right: 22px;
+}
+
+.logo-post ion-icon {
+  font-size: 17px
+}
+
+.logo-name {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo-name img {
+  width: 32px;
+}
+
+.img-post {
+  background-color: white;
+}
+
+.img-post img {
+  width: 100%;
+}
+
+.like-comentarios {
+  background-color: white;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.like-post {
+  height: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.like-post ion-icon {
+  margin: 0px 5px;
+}
+
+.comentarios-post {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.comentarios-post img {
+  width: 22px;
+  padding: 0px 5px;
+}
+
+.sidebar {
+  /* background-color: lawngreen; */
+  width: 400px;
+  margin-left: 14px;
+}
+
+.sua-conta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 23px;
+}
+
+.sua-conta div {
+  width: 24%;
+  color: #262626;
+}
+
+.sua-conta div p {
+  color: #8E8E8E;
+}
+
+.sugestoes {
+  display: flex;
+  align-items: center;
+  margin: 16px 0px;
+  font-size: 12px;
+  color: #8E8E8E;
+}
+
+.sugestoes > div:nth-child(2) {
+  margin-left: auto;
+  color: #262626;
+  cursor: pointer;
+}
+
+.contas-seguir {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 38px;
+  margin-bottom: 8px;
+}
+
+.contas-seguir > div:nth-child(1) {
+  margin-bottom: auto;
+}
+
+.contas-seguir img {
+  width: 32px;
+  height: 32px;
+}
+
+.nome-contas-seguir {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nome-contas-seguir p {
+  color: #8E8E8E;
+}
+
+.contas-seguir > div:nth-child(3) {
+  padding-left: 90px;
+}
+
+.contas-seguir > div:nth-child(3) p {
+  color: #139EF2;
+}
+
+.sobre {
+  margin: 18px 0px;
+}
+
+.sobre p, .marca p {
+  font-size: 11px;
+  color: #C7C7C7; 
+}
+
+@media (max-width:935px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width:614px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-celular {
+    display: initial;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container-principal{
+    width: 100%;
+  }
+}
